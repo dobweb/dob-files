@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "File",
+      "script": "./bin/www",
+      "cwd": "./",
+      "watch": false,
+      "ignore_watch": [
+        "logs",
+        "node_modules",
+        "upload"
+      ],
+      "instances": 1,
+      "error_file": "/logs/pm.fileServiceErr.log",
+      "out_file": "/logs/pm.fileServiceOut.log",
+      "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }
+  ]
+}
