@@ -25,9 +25,6 @@ $ npm run dev
 $ npm run build
 $ npm start
 
-# generate static project
-$ npm run generate
-
 # pm2 start
 $ npm install -g pm2
 $ npm run prd
