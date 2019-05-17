@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "File",
+      "name": "dobFiles",
       "script": "./bin/www",
       "cwd": "./",
       "watch": false,

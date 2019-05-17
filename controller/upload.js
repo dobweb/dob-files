@@ -44,7 +44,7 @@ exports.upload = async function(ctx) {
   const reader = fs.createReadStream(file.path)
   const name = randomOnly(12)
   // let filePath = path.join(__dirname, '../../public/uploads/worker/') + name + '.jpg'
-  const fileFiled = `/dob/project/fileService/upload`
+  const fileFiled = path.join(__dirname, '../../public/uploads/')
   const path = date + '/'
   // 检查文件夹，没有则创建
   if (!fs.existsSync(fileFiled + appPath)) {
@@ -63,6 +63,6 @@ exports.upload = async function(ctx) {
 
   ctx.body =  await {
     status: 200,
-    path: `http://fs.1688hi.com${urlPath}`
+    path: `http://localhost:3000${urlPath}`
   }
 }

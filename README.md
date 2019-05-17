@@ -1,7 +1,7 @@
 # dob-files
 
 
-``` git cmd
+### git cmd
 $ git clone git@github.com:dobweb/dob-files.git
 
 $ git status
@@ -11,7 +11,7 @@ $ git pull -u origin master
 $ git push -u origin master
 
 
-``` bash
+### bash
 # install dependencies
 $ npm install
 
@@ -24,3 +24,7 @@ $ npm start
 
 # generate static project
 $ npm run generate
+
+# pm2 start
+$ npm install -g pm2
+$ npm run prd
