@@ -10,7 +10,7 @@ $ git add .
 $ git commit -m 'update'
 $ git pull -u origin master
 $ git push -u origin master
-
+```
 
 ### bash
 ```
@@ -30,3 +30,4 @@ $ npm run generate
 # pm2 start
 $ npm install -g pm2
 $ npm run prd
+```
