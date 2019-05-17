@@ -2,6 +2,7 @@
 
 
 ### git cmd
+```
 $ git clone git@github.com:dobweb/dob-files.git
 
 $ git status
@@ -12,6 +13,7 @@ $ git push -u origin master
 
 
 ### bash
+```
 # install dependencies
 $ npm install
 
